@@ -1,0 +1,17 @@
+{
+  "name": "e-commerce-app",
+  "version": "1.0.0",
+  "scripts": {
+    "client": "yarn --cwd client start",
+    "server": "yarn --cwd api develop",
+    "build": "yarn --cwd client install && yarn --cwd client build && yarn --cwd api install",
+    "dev": "concurrently \"yarn server\" \"yarn client\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/HenryyyLI/e-commerce-app.git",
+  "author": "xbbbbbbbbbbbb <297906031@qq.com>",
+  "license": "MIT"
+}

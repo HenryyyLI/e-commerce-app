@@ -21,6 +21,7 @@ A modern full-stack e-commerce application powered by Strapi (backend CMS) and R
   The frontend communicates with the backend using Axios, enabling efficient requests, robust error handling, and seamless integration with custom React hooks for streamlined data flow.
 
 - **🎨 Clean & Responsive UI**
+  
   A modern user experience designed with SCSS modules and reusable React components. The interface is fully responsive, ensuring a polished shopping experience across desktop and mobile devices.
 
 ## 📁 Project Structure
